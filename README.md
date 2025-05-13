@@ -1,1 +1,2 @@
-# -hest-x-ray-lungs-segmentation
+# -Chest-x-ray-lungs-segmentation
+This project demonstrates the process of image segmentation using TensorFlow, Keras, OpenCV, and Albumentations. The model is built on the U-Net architecture, which allows to efficiently select the desired areas in images (for example, medical images). The project includes stages of image and mask preprocessing (reading, resizing, augmentation, normalization), training using EarlyStopping to prevent overtraining, and visualization functions for the results.
